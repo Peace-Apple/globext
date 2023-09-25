@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <header>
+      <header className={styles.header}>
           <h1>
             <Link className={styles.homeLink} href={"/home"}>
               GLOBOMANTICS
